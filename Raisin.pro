@@ -1,4 +1,4 @@
-update=Thu 30 May 2019 16:49:51 CEST
+update=Sun 09 Jun 2019 09:46:33 CEST
 version=1
 last_client=kicad
 [pcbnew]
@@ -29,8 +29,8 @@ version=1
 version=1
 LibDir=
 [eeschema/libraries]
-LibName1=power
-LibName2=device
+LibName1=Raisin-rescue
+LibName2=power
 LibName3=switches
 LibName4=relays
 LibName5=motors
@@ -66,3 +66,4 @@ LibName34=Raisin
 LibName35=sa612a
 LibName36=crystal
 LibName37=transformer
+LibName38=device

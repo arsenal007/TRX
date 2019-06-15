@@ -44,14 +44,14 @@ K dual opamp
 F http://www.analog.com/media/en/technical-documentation/data-sheets/ADA4807-1_4807-2_4807-4.pdf
 $ENDCMP
 #
-$CMP AVR-ISP-6
-D Atmel 6-pin ISP connector
-K AVR ISP Connector
-$ENDCMP
-#
 $CMP BAV99
 D Dual schottky diode
 K diode
+$ENDCMP
+#
+$CMP BPF
+D Inductor, small symbol
+K inductor choke coil reactor magnetic
 $ENDCMP
 #
 $CMP CP_Small
@@ -62,6 +62,12 @@ $ENDCMP
 $CMP C_Small
 D Unpolarized capacitor
 K capacitor cap
+$ENDCMP
+#
+$CMP Conn_01x01
+D Generic connector, single row, 01x01
+K connector
+F ~
 $ENDCMP
 #
 $CMP Crystal_GND23_Small
@@ -328,6 +334,11 @@ $CMP OPA2691
 D Dual Wideband, Current-Feedback Operational Amplifier, SOIC-8
 K dual current feedback opamp
 F http://www.ti.com/lit/ds/sbos224d/sbos224d.pdf
+$ENDCMP
+#
+$CMP RA3AO_BPF
+D Inductor, small symbol
+K inductor choke coil reactor magnetic
 $ENDCMP
 #
 $CMP RC4558
