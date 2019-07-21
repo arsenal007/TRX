@@ -44,6 +44,12 @@ K dual opamp
 F http://www.analog.com/media/en/technical-documentation/data-sheets/ADA4807-1_4807-2_4807-4.pdf
 $ENDCMP
 #
+$CMP Audio-Jack-3_2Switches
+D 3-pin audio jack receptable (stereo/TRS connector) with 2 switching contacts
+K audio jack receptable stereo headphones phones TRS connector
+F ~
+$ENDCMP
+#
 $CMP BAV99
 D Dual schottky diode
 K diode
@@ -88,6 +94,11 @@ $ENDCMP
 #
 $CMP GND
 D GROUND power-flag symbol
+K Power Flag Symbol
+$ENDCMP
+#
+$CMP GNDD
+D (digital) ground power-flag symbol
 K Power Flag Symbol
 $ENDCMP
 #
@@ -373,6 +384,12 @@ $ENDCMP
 $CMP Si2301-TP
 D Transistor P-MOSFET with substrate diode (general)
 K pmos p-mos p-mosfet transistor
+$ENDCMP
+#
+$CMP TDA7052A
+D 1 W BTL mono audio amplifier with DC volume control, DIP-8/SOIC-8
+K audio amplifier
+F http://www.nxp.com/docs/en/data-sheet/TDA7052A_AT.pdf
 $ENDCMP
 #
 $CMP TL062
